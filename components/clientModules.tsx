@@ -71,7 +71,7 @@ export function ContentBlock({ children }: { children: React.ReactNode }) {
                 <div>
                     <h3>TABLE OF CONTENTS</h3>
                     {/* Items will be duplicated on dev */}
-                    {/* {tocItems.map((item, idx) => (
+                    {tocItems.map((item, idx) => (
                         <Link href={`#${item.link}`} key={idx}>
                             <motion.p
                                 initial={{ opacity: 0, x: -10 }}
@@ -81,7 +81,7 @@ export function ContentBlock({ children }: { children: React.ReactNode }) {
                                 {item.title}
                             </motion.p>
                         </Link>
-                    ))} */}
+                    ))}
                 </div>
             </div>
         </div>

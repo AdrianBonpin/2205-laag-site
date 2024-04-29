@@ -57,6 +57,7 @@
 html {
     scroll-behavior: smooth !important;
     scroll-padding-top: 4rem;
+    scroll-snap-align: start !important;
     background: var(--background);
 }
 

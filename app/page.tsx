@@ -50,7 +50,7 @@ export default function LandingPage() {
                 <InformationBlock title={'Info Block'}>
                     <p>Hello</p>
                     <ol>
-                        <li>Yes</li>
+                        <li>Test</li>
                     </ol>
                 </InformationBlock>
                 <TextBlock

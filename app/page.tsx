@@ -33,8 +33,18 @@ export default function LandingPage() {
             the environment.
           </p>
         </TextBlock>
-        <InformationBlock title="Additional information">
-          <p>Hello</p>
+        <InformationBlock title="Overview">
+          <p>To improve public transportation efficiency in Cebu, this project takes a two-phased approach, focusing on data collection and optimization:</p>
+          <ol>
+            <li>
+              Phase One: This phase addresses navigation difficulties for new and existing residents in Cebu, phase one will develop a mobile application that
+              provides navigation assistance (similar to Google Maps) and collects anonymous travel data.
+            </li>
+            <li>
+              Phase Two: Leveraging phase one's data, this phase tackles Cebu's traffic issues, especially inefficient jeepney routes, by processing the data
+              into easy-to-understand formats for route analysts.
+            </li>
+          </ol>
         </InformationBlock>
 
         <TextBlock title="Problem Statement" anchor="problem-statement">

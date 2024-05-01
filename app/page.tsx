@@ -55,7 +55,7 @@ export default function LandingPage() {
                 </InformationBlock>
                 <TextBlock
                     title="Lorem ipsum dolor sit amet."
-                    anchor="intro"
+                    anchor="lorem_1"
                     isSub={true}
                 >
                     <p>

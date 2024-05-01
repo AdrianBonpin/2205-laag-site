@@ -14,7 +14,7 @@ export default function LandingPage() {
               text: 'Home',
             },
             {
-              link: '#',
+              link: 'https://dp-archive.vercel.app/',
               text: 'Archive',
             },
           ],
@@ -33,9 +33,10 @@ export default function LandingPage() {
             the environment.
           </p>
         </TextBlock>
-        <InformationBlock title={'Additional information'}>
+        <InformationBlock title="Additional information">
           <p>Hello</p>
         </InformationBlock>
+
         <TextBlock title="Problem Statement" anchor="problem-statement">
           <p>
             Sustainable Development Goal 9, focuses on “Industry, Innovation, and Infrastructure”. This SDG aims to build resilient infrastructure, promote
@@ -47,13 +48,43 @@ export default function LandingPage() {
             the environment.
           </p>
         </TextBlock>
-        <TextBlock title="User Personas" anchor="user-personas">
-          <TextBlock title="Klaro Andrew" noTitle={true} isSub={true} anchor="persona-1">
-            <PhotoBlock src="/user-personas/klaro-andrew.png" />
-          </TextBlock>
-          <TextBlock title="Angelina Diyosnon" noTitle={true} isSub={true} anchor="persona-2">
-            <PhotoBlock src="/user-personas/angelina-diyosnon.png" />
-          </TextBlock>
+
+        <TextBlock title="User Personas" anchor="user-personas" />
+        <TextBlock title="Klaro Andrew" noTitle={true} isSub={true} anchor="persona-1">
+          <PhotoBlock src="/user-personas/klaro-andrew.png" />
+        </TextBlock>
+        <TextBlock title="Angelina Diyosnon" noTitle={true} isSub={true} anchor="persona-2">
+          <PhotoBlock src="/user-personas/angelina-diyosnon.png" />
+        </TextBlock>
+
+        <TextBlock title="Research Insights" anchor="research-insights">
+          <p>
+            User feedback is key to iteratively improve prototypes, aligning them with user needs. Analyzing this feedback streamlines updates and builds better
+            user experiences. Identified priorities include enhancing mobile app notifications with visuals, offering engagement incentives, and improving
+            desktop dashboard clarity with clearer data insights. Color choices and data points will be reevaluated for better usability. These insights guide
+            future iterations by highlighting areas for improvement and informing solutions that better meet user needs, ultimately driving user experience,
+            satisfaction, and engagement.
+          </p>
+        </TextBlock>
+        <TextBlock title="Mobile Application" isSub={true} anchor="mobile-application">
+          <ol>
+            <li>Majority of users find notifications visually clear and coherent, indicating effective design in conveying information.</li>
+            <li>Some users suggest room for improvement in notifications, highlighting the need for further clarity and accessibility.</li>
+            <li>
+              Suggestions include implementing a more visual approach to highlight affected roads routes during incidents, and offering incentives to encourage
+              user engagement.
+            </li>
+          </ol>
+        </TextBlock>
+        <TextBlock title="Desktop Application" isSub={true} anchor="desktop-application">
+          <ol>
+            <li>Users appreciate the visual clarity, understandability, and aesthetic design of the applications' interface.</li>
+            <li>Accessibility of notifications could be improved, suggesting the need for enhancements in this area.</li>
+            <li>
+              Feedback indicates satisfaction with data display and analytics features, with suggestions for clearer data insights and re-evaluation of relevant
+              data points.
+            </li>
+          </ol>
         </TextBlock>
       </TocProvider>
     </>

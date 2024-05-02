@@ -1,8 +1,8 @@
 .nav_black {
-  position: sticky;
-  top: 0;
-  background: var(--background);
-  width: 100%;
-  height: 6rem;
-  z-index: 1;
+    position: sticky;
+    top: 0;
+    background: var(--background);
+    width: 100%;
+    height: 6rem;
+    z-index: 1;
 }

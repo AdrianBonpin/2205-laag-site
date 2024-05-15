@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import { InformationBlock, Navbar, PhotoBlock, PhotoBlock2, TextBlock, TocProvider } from '@/components/clientModules';
 
 import styles from './page.module.css';

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-import { InformationBlock, Navbar, PhotoBlock, TextBlock, TocProvider } from '@/components/clientModules';
+import { InformationBlock, Navbar, PhotoBlock, PhotoBlock2, TextBlock, TocProvider } from '@/components/clientModules';
 
 import styles from './page.module.css';
 
@@ -89,8 +89,13 @@ export default function LandingPage() {
             better meet user needs, ultimately driving user experience, satisfaction, and engagement.
           </p>
         </TextBlock>
-        {/* TODO: add mobile graphs */}
         <TextBlock title="Mobile Application" isSub={true} anchor="mobile-application">
+          <PhotoBlock2
+            src={{
+              img1: '/research-insights/mobile/in-app_notifications_and_feedback.png',
+              img2: '/research-insights/mobile/interface.png',
+            }}
+          />
           <ol>
             <li>
               Majority of users find notifications visually clear and coherent, indicating effective design in conveying
@@ -106,8 +111,19 @@ export default function LandingPage() {
             </li>
           </ol>
         </TextBlock>
-        {/* TODO: add desktop graphs */}
         <TextBlock title="Desktop Application" isSub={true} anchor="desktop-application">
+          <PhotoBlock2
+            src={{
+              img1: '/research-insights/desktop/in-app_notifications_and_feedback.png',
+              img2: '/research-insights/desktop/interface.png',
+            }}
+          />{' '}
+          <PhotoBlock2
+            src={{
+              img1: '/research-insights/desktop/data.png',
+              img2: '/research-insights/desktop/analytics.png',
+            }}
+          />
           <ol>
             <li>
               Users appreciate the visual clarity, understandability, and aesthetic design of the applications'
